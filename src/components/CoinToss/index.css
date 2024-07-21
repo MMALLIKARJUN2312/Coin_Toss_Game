@@ -1,0 +1,95 @@
+/* Write your CSS here */
+
+* {
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+
+.card-container {
+  min-height: 90vh;
+  width: 60vh;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  color: #a35200;
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+  color: #334155;
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.coin-image {
+  height: 50%;
+  width: 50%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-button {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #a35200;
+  background-color: #f9d423;
+  height: 45px;
+  width: 135px;
+  border-radius: 10px;
+}
+
+.list-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #475569;
+  padding-top: 28px;
+  padding-right: 18px;
+  margin-right: 18px;
+  margin-top: 28px;
+}
